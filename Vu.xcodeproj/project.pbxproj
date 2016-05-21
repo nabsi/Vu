@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD303EF91CBF7BF00020D924 /* Anton.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD303EF81CBF7BF00020D924 /* Anton.ttf */; };
-		BD6981C11CEC1A5200DAC222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6981C01CEC1A5200DAC222 /* Assets.xcassets */; };
 		BD94D38C1CC5DD5400860C93 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD94D38B1CC5DD5400860C93 /* AVKit.framework */; };
 		BD94D38E1CC5DD5F00860C93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD94D38D1CC5DD5F00860C93 /* AVFoundation.framework */; };
 		BDA5F70F1CBF5B9F009FC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F70E1CBF5B9F009FC945 /* AppDelegate.swift */; };
@@ -19,6 +18,7 @@
 		BDA5F7271CBF5B9F009FC945 /* VuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F7261CBF5B9F009FC945 /* VuTests.swift */; };
 		BDA5F7321CBF5B9F009FC945 /* VuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F7311CBF5B9F009FC945 /* VuUITests.swift */; };
 		BDBF004E1CBF617B00DAEBE6 /* Insanibc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBF004D1CBF617B00DAEBE6 /* Insanibc.ttf */; };
+		F86579891CF002CA00610E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86579881CF002CA00610E47 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		BD303EF81CBF7BF00020D924 /* Anton.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anton.ttf; sourceTree = "<group>"; };
-		BD6981C01CEC1A5200DAC222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD94D38B1CC5DD5400860C93 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		BD94D38D1CC5DD5F00860C93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BDA5F70B1CBF5B9F009FC945 /* Vu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +59,7 @@
 		BDF635631CC31AEB00B7CECF /* Fill Me With Color.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fill Me With Color.ttf"; path = "../../../Downloads/fill_me_with_color/Fill Me With Color.ttf"; sourceTree = "<group>"; };
 		BDF635641CC31B5100B7CECF /* Neon Glow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Neon Glow.ttf"; path = "../../../Downloads/neon_glow/Neon Glow.ttf"; sourceTree = "<group>"; };
 		BDF635651CC31BF600B7CECF /* Arialic Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arialic Hollow.ttf"; path = "../../../Downloads/Arialic Hollow.ttf"; sourceTree = "<group>"; };
+		F86579881CF002CA00610E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 				BDA5F70E1CBF5B9F009FC945 /* AppDelegate.swift */,
 				BDA5F7101CBF5B9F009FC945 /* ViewController.swift */,
 				BDA5F7121CBF5B9F009FC945 /* Main.storyboard */,
-				BD6981C01CEC1A5200DAC222 /* Assets.xcassets */,
+				F86579881CF002CA00610E47 /* Assets.xcassets */,
 				BDA5F71A1CBF5B9F009FC945 /* LaunchScreen.storyboard */,
 				BDA5F71D1CBF5B9F009FC945 /* Info.plist */,
 				BDA5F7151CBF5B9F009FC945 /* Vu.xcdatamodeld */,
@@ -272,9 +272,9 @@
 			files = (
 				BD303EF91CBF7BF00020D924 /* Anton.ttf in Resources */,
 				BDA5F71C1CBF5B9F009FC945 /* LaunchScreen.storyboard in Resources */,
-				BD6981C11CEC1A5200DAC222 /* Assets.xcassets in Resources */,
 				BDA5F7141CBF5B9F009FC945 /* Main.storyboard in Resources */,
 				BDBF004E1CBF617B00DAEBE6 /* Insanibc.ttf in Resources */,
+				F86579891CF002CA00610E47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
