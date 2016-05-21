@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD303EF91CBF7BF00020D924 /* Anton.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD303EF81CBF7BF00020D924 /* Anton.ttf */; };
+		BD6981C11CEC1A5200DAC222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6981C01CEC1A5200DAC222 /* Assets.xcassets */; };
+		BD94D38C1CC5DD5400860C93 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD94D38B1CC5DD5400860C93 /* AVKit.framework */; };
+		BD94D38E1CC5DD5F00860C93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD94D38D1CC5DD5F00860C93 /* AVFoundation.framework */; };
+		BDA5F70F1CBF5B9F009FC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F70E1CBF5B9F009FC945 /* AppDelegate.swift */; };
+		BDA5F7111CBF5B9F009FC945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F7101CBF5B9F009FC945 /* ViewController.swift */; };
+		BDA5F7141CBF5B9F009FC945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA5F7121CBF5B9F009FC945 /* Main.storyboard */; };
+		BDA5F7171CBF5B9F009FC945 /* Vu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F7151CBF5B9F009FC945 /* Vu.xcdatamodeld */; };
+		BDA5F71C1CBF5B9F009FC945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA5F71A1CBF5B9F009FC945 /* LaunchScreen.storyboard */; };
+		BDA5F7271CBF5B9F009FC945 /* VuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F7261CBF5B9F009FC945 /* VuTests.swift */; };
+		BDA5F7321CBF5B9F009FC945 /* VuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5F7311CBF5B9F009FC945 /* VuUITests.swift */; };
+		BDBF004E1CBF617B00DAEBE6 /* Insanibc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBF004D1CBF617B00DAEBE6 /* Insanibc.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDA5F7231CBF5B9F009FC945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA5F7031CBF5B9F009FC945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA5F70A1CBF5B9F009FC945;
+			remoteInfo = Vu;
+		};
+		BDA5F72E1CBF5B9F009FC945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA5F7031CBF5B9F009FC945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA5F70A1CBF5B9F009FC945;
+			remoteInfo = Vu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD303EF81CBF7BF00020D924 /* Anton.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anton.ttf; sourceTree = "<group>"; };
+		BD6981C01CEC1A5200DAC222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD94D38B1CC5DD5400860C93 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		BD94D38D1CC5DD5F00860C93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BDA5F70B1CBF5B9F009FC945 /* Vu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA5F70E1CBF5B9F009FC945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDA5F7101CBF5B9F009FC945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDA5F7131CBF5B9F009FC945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA5F7161CBF5B9F009FC945 /* Vu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vu.xcdatamodel; sourceTree = "<group>"; };
+		BDA5F71B1CBF5B9F009FC945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA5F71D1CBF5B9F009FC945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA5F7221CBF5B9F009FC945 /* VuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA5F7261CBF5B9F009FC945 /* VuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuTests.swift; sourceTree = "<group>"; };
+		BDA5F7281CBF5B9F009FC945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA5F72D1CBF5B9F009FC945 /* VuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA5F7311CBF5B9F009FC945 /* VuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuUITests.swift; sourceTree = "<group>"; };
+		BDA5F7331CBF5B9F009FC945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBF004D1CBF617B00DAEBE6 /* Insanibc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Insanibc.ttf; sourceTree = "<group>"; };
+		BDF635631CC31AEB00B7CECF /* Fill Me With Color.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fill Me With Color.ttf"; path = "../../../Downloads/fill_me_with_color/Fill Me With Color.ttf"; sourceTree = "<group>"; };
+		BDF635641CC31B5100B7CECF /* Neon Glow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Neon Glow.ttf"; path = "../../../Downloads/neon_glow/Neon Glow.ttf"; sourceTree = "<group>"; };
+		BDF635651CC31BF600B7CECF /* Arialic Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arialic Hollow.ttf"; path = "../../../Downloads/Arialic Hollow.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA5F7081CBF5B9F009FC945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94D38E1CC5DD5F00860C93 /* AVFoundation.framework in Frameworks */,
+				BD94D38C1CC5DD5400860C93 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA5F71F1CBF5B9F009FC945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA5F72A1CBF5B9F009FC945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA5F7021CBF5B9F009FC945 = {
+			isa = PBXGroup;
+			children = (
+				BD94D38D1CC5DD5F00860C93 /* AVFoundation.framework */,
+				BD94D38B1CC5DD5400860C93 /* AVKit.framework */,
+				BDBF004C1CBF611200DAEBE6 /* Ressources */,
+				BDA5F70D1CBF5B9F009FC945 /* Vu */,
+				BDA5F7251CBF5B9F009FC945 /* VuTests */,
+				BDA5F7301CBF5B9F009FC945 /* VuUITests */,
+				BDA5F70C1CBF5B9F009FC945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA5F70C1CBF5B9F009FC945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5F70B1CBF5B9F009FC945 /* Vu.app */,
+				BDA5F7221CBF5B9F009FC945 /* VuTests.xctest */,
+				BDA5F72D1CBF5B9F009FC945 /* VuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA5F70D1CBF5B9F009FC945 /* Vu */ = {
+			isa = PBXGroup;
+			children = (
+				BDEF95CA1CCF186B00FF2149 /* Assets */,
+				BDA5F70E1CBF5B9F009FC945 /* AppDelegate.swift */,
+				BDA5F7101CBF5B9F009FC945 /* ViewController.swift */,
+				BDA5F7121CBF5B9F009FC945 /* Main.storyboard */,
+				BD6981C01CEC1A5200DAC222 /* Assets.xcassets */,
+				BDA5F71A1CBF5B9F009FC945 /* LaunchScreen.storyboard */,
+				BDA5F71D1CBF5B9F009FC945 /* Info.plist */,
+				BDA5F7151CBF5B9F009FC945 /* Vu.xcdatamodeld */,
+			);
+			path = Vu;
+			sourceTree = "<group>";
+		};
+		BDA5F7251CBF5B9F009FC945 /* VuTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5F7261CBF5B9F009FC945 /* VuTests.swift */,
+				BDA5F7281CBF5B9F009FC945 /* Info.plist */,
+			);
+			path = VuTests;
+			sourceTree = "<group>";
+		};
+		BDA5F7301CBF5B9F009FC945 /* VuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5F7311CBF5B9F009FC945 /* VuUITests.swift */,
+				BDA5F7331CBF5B9F009FC945 /* Info.plist */,
+			);
+			path = VuUITests;
+			sourceTree = "<group>";
+		};
+		BDBF004C1CBF611200DAEBE6 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BDF635651CC31BF600B7CECF /* Arialic Hollow.ttf */,
+				BDF635631CC31AEB00B7CECF /* Fill Me With Color.ttf */,
+				BDF635641CC31B5100B7CECF /* Neon Glow.ttf */,
+				BD303EF81CBF7BF00020D924 /* Anton.ttf */,
+				BDBF004D1CBF617B00DAEBE6 /* Insanibc.ttf */,
+			);
+			name = Ressources;
+			path = Vu;
+			sourceTree = "<group>";
+		};
+		BDEF95CA1CCF186B00FF2149 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA5F70A1CBF5B9F009FC945 /* Vu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA5F7361CBF5B9F009FC945 /* Build configuration list for PBXNativeTarget "Vu" */;
+			buildPhases = (
+				BDA5F7071CBF5B9F009FC945 /* Sources */,
+				BDA5F7081CBF5B9F009FC945 /* Frameworks */,
+				BDA5F7091CBF5B9F009FC945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vu;
+			productName = Vu;
+			productReference = BDA5F70B1CBF5B9F009FC945 /* Vu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA5F7211CBF5B9F009FC945 /* VuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA5F7391CBF5B9F009FC945 /* Build configuration list for PBXNativeTarget "VuTests" */;
+			buildPhases = (
+				BDA5F71E1CBF5B9F009FC945 /* Sources */,
+				BDA5F71F1CBF5B9F009FC945 /* Frameworks */,
+				BDA5F7201CBF5B9F009FC945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA5F7241CBF5B9F009FC945 /* PBXTargetDependency */,
+			);
+			name = VuTests;
+			productName = VuTests;
+			productReference = BDA5F7221CBF5B9F009FC945 /* VuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA5F72C1CBF5B9F009FC945 /* VuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA5F73C1CBF5B9F009FC945 /* Build configuration list for PBXNativeTarget "VuUITests" */;
+			buildPhases = (
+				BDA5F7291CBF5B9F009FC945 /* Sources */,
+				BDA5F72A1CBF5B9F009FC945 /* Frameworks */,
+				BDA5F72B1CBF5B9F009FC945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA5F72F1CBF5B9F009FC945 /* PBXTargetDependency */,
+			);
+			name = VuUITests;
+			productName = VuUITests;
+			productReference = BDA5F72D1CBF5B9F009FC945 /* VuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA5F7031CBF5B9F009FC945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Vu;
+				TargetAttributes = {
+					BDA5F70A1CBF5B9F009FC945 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B9S3XP8B7X;
+					};
+					BDA5F7211CBF5B9F009FC945 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDA5F70A1CBF5B9F009FC945;
+					};
+					BDA5F72C1CBF5B9F009FC945 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDA5F70A1CBF5B9F009FC945;
+					};
+				};
+			};
+			buildConfigurationList = BDA5F7061CBF5B9F009FC945 /* Build configuration list for PBXProject "Vu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA5F7021CBF5B9F009FC945;
+			productRefGroup = BDA5F70C1CBF5B9F009FC945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA5F70A1CBF5B9F009FC945 /* Vu */,
+				BDA5F7211CBF5B9F009FC945 /* VuTests */,
+				BDA5F72C1CBF5B9F009FC945 /* VuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA5F7091CBF5B9F009FC945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD303EF91CBF7BF00020D924 /* Anton.ttf in Resources */,
+				BDA5F71C1CBF5B9F009FC945 /* LaunchScreen.storyboard in Resources */,
+				BD6981C11CEC1A5200DAC222 /* Assets.xcassets in Resources */,
+				BDA5F7141CBF5B9F009FC945 /* Main.storyboard in Resources */,
+				BDBF004E1CBF617B00DAEBE6 /* Insanibc.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA5F7201CBF5B9F009FC945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA5F72B1CBF5B9F009FC945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA5F7071CBF5B9F009FC945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA5F7171CBF5B9F009FC945 /* Vu.xcdatamodeld in Sources */,
+				BDA5F7111CBF5B9F009FC945 /* ViewController.swift in Sources */,
+				BDA5F70F1CBF5B9F009FC945 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA5F71E1CBF5B9F009FC945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA5F7271CBF5B9F009FC945 /* VuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA5F7291CBF5B9F009FC945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA5F7321CBF5B9F009FC945 /* VuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA5F7241CBF5B9F009FC945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA5F70A1CBF5B9F009FC945 /* Vu */;
+			targetProxy = BDA5F7231CBF5B9F009FC945 /* PBXContainerItemProxy */;
+		};
+		BDA5F72F1CBF5B9F009FC945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA5F70A1CBF5B9F009FC945 /* Vu */;
+			targetProxy = BDA5F72E1CBF5B9F009FC945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA5F7121CBF5B9F009FC945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA5F7131CBF5B9F009FC945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA5F71A1CBF5B9F009FC945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA5F71B1CBF5B9F009FC945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA5F7341CBF5B9F009FC945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDA5F7351CBF5B9F009FC945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA5F7371CBF5B9F009FC945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Vu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDA5F7381CBF5B9F009FC945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Vu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDA5F73A1CBF5B9F009FC945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vu.app/Vu";
+			};
+			name = Debug;
+		};
+		BDA5F73B1CBF5B9F009FC945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vu.app/Vu";
+			};
+			name = Release;
+		};
+		BDA5F73D1CBF5B9F009FC945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vu;
+			};
+			name = Debug;
+		};
+		BDA5F73E1CBF5B9F009FC945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA5F7061CBF5B9F009FC945 /* Build configuration list for PBXProject "Vu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA5F7341CBF5B9F009FC945 /* Debug */,
+				BDA5F7351CBF5B9F009FC945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA5F7361CBF5B9F009FC945 /* Build configuration list for PBXNativeTarget "Vu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA5F7371CBF5B9F009FC945 /* Debug */,
+				BDA5F7381CBF5B9F009FC945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA5F7391CBF5B9F009FC945 /* Build configuration list for PBXNativeTarget "VuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA5F73A1CBF5B9F009FC945 /* Debug */,
+				BDA5F73B1CBF5B9F009FC945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA5F73C1CBF5B9F009FC945 /* Build configuration list for PBXNativeTarget "VuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA5F73D1CBF5B9F009FC945 /* Debug */,
+				BDA5F73E1CBF5B9F009FC945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDA5F7151CBF5B9F009FC945 /* Vu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDA5F7161CBF5B9F009FC945 /* Vu.xcdatamodel */,
+			);
+			currentVersion = BDA5F7161CBF5B9F009FC945 /* Vu.xcdatamodel */;
+			path = Vu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDA5F7031CBF5B9F009FC945 /* Project object */;
+}
